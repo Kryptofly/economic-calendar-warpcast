@@ -1,0 +1,5 @@
+**Economic News of the Day**
+
+{% for news in important_news %}
+- **{{ news.time }}** - {{ news.currency }}: {{ news.event }}
+{% endfor %}
